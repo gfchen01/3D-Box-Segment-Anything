@@ -1,7 +1,7 @@
 SAM_TYPE: "vit_h"
-SAM_CHECKPOINT: "/data/sam_vit_h_4b8939.pth"
+SAM_CHECKPOINT: "./data/sam_vit_h_4b8939.pth"
 
-VOXELNEXT_CHECKPOINT: "/data/voxelnext_nuscenes_kernel1.pth"
+VOXELNEXT_CHECKPOINT: "./data/voxelnext_nuscenes_kernel1.pth"
 INPUT_CHANNELS: 5
 GRID_SIZE: [1440, 1440, 40]
 
