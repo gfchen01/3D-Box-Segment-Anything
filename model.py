@@ -112,7 +112,7 @@ class Model(nn.Module):
         mask = masks[0]
 
         box3d = self.generate_3D_box(lidar2img_rt, mask, voxel_coords, pred_dicts, quality_score=quality_score)
-        return mask, box3d
+        return mask, box3d, pred_dicts
 
 
 if __name__ == '__main__':
